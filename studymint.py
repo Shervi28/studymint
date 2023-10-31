@@ -56,7 +56,7 @@ def summarymaker(text):
         out_file.write(summary)
         return summary
 
-api="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"
+api=""
 
 llm1 = OpenAI(openai_api_key=api, temperature=0.7)
 output_parser = CommaSeparatedListOutputParser()
